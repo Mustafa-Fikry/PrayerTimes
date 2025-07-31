@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+font-family: 'Cairo', sans-serif;
+}
+html{
+direction: rtl;
+}
+body {
+overflow: hidden !important;
+
+background: url('/bg.jpg');
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+}
