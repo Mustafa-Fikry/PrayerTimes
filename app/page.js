@@ -55,9 +55,8 @@ return (
 // city && date && payers container
 <section className="flex justify-center sm:justify-start items-center min-h-[100vh] px-10 ">
   {/* city and city selection && date */}
-<div className="w-full sm:max-w-[590px] px-[30px] sm:px-[30px] bg-[#332a224e] backdrop-blur-[10px] 
-    rounded-[10px] border-[1px] border-[#d7d7d74e] sm:mr-[15%]">
-    
+<div className="w-full sm:max-w-[590px] px-[20px] sm:px-[30px] bg-[#332a224e] backdrop-blur-[10px] 
+    rounded-[10px] border-[1px] border-[#d7d7d74e] mr-[5%] sm:mr-[15%]">
     <div className="flex sm:flex-row justify-between gap-[30px] py-[40px] mb-[40px] border-b border-b-[#d7d7d74e]">
     
     <div className="city w-full ">
