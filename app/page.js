@@ -81,6 +81,7 @@ return (
 
     {/* Prayers Time */}
     <Prayers name="الفجر :" time={formatTime(prayerTimes.Fajr)} />
+    <Prayers name=" الشروق :" time={formatTime(prayerTimes.Sunrise)} />
     <Prayers name="الظهر :" time={formatTime(prayerTimes.Dhuhr)} />
     <Prayers name="العصر :" time={formatTime(prayerTimes.Asr)} />
     <Prayers name="المغرب :" time={formatTime(prayerTimes.Maghrib)} />
